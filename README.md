@@ -1,4 +1,4 @@
-The style is inspired by [Daniel Seita](https://github.com/DanielTakeshi/Paper_Notes) who inspired himself with [Adrian Colyer](https://blog.acolyer.org/about/) and [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes).
+The style is inspired by [Daniel Seita](https://github.com/DanielTakeshi/Paper_Notes) who inspired himself by [Adrian Colyer](https://blog.acolyer.org/about/) and [Denny Britz](https://github.com/dennybritz/deeplearning-papernotes).
 
 ----
 
