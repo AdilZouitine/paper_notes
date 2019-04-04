@@ -4,7 +4,7 @@ The style is inspired by [Daniel Seita](https://github.com/DanielTakeshi/Paper_N
 
 This repository will contain notes from the research papers I have read.
 The papers will be sorted by domain and date.
-Finally, each paper will be accompanied by a note on my understanding, the scale will be between 0 and 10.
+Finally, each paper will be accompanied by a note on my understanding level, the scale will be between 0 and 10.
 
 I will update it over time and through my readings.
 
