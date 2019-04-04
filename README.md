@@ -13,7 +13,7 @@ I will update it over time and through my readings.
 # Reinforcement Learning 
 
 ## 2017
-- [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/rainbow.md) (**6**)
+- [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Rainbow.md) (**6**)
 
 
 ## 2013
