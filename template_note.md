@@ -9,7 +9,4 @@
 
 
 ---
-**Notes** :
-
----
 **My impression** :
