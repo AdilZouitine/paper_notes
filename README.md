@@ -12,6 +12,10 @@ I will update it over time and through my readings.
 
 # Reinforcement Learning 
 
+## 2017
+- [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/rainbow.md) (**6**)
+
+
 ## 2013
 - [Playing Atari with Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Playing-Atari-with-Deep-Reinforcement-Learning.md) (**8**)
 
