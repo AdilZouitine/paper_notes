@@ -9,7 +9,7 @@ Understanding note : **6**
 - This paper proposes an agent that combined some improvement of DQN algorithm
 - Provide state-of-art performance on the Atari 2600 Benchmark
 
-![rainbow](https://www.alexirpan.com/public/rl-hard/rainbow_dqn.png | width=100)
+![rainbow](https://www.alexirpan.com/public/rl-hard/rainbow_dqn.png){:height="50%" width="50%"}
 
 ---
 
