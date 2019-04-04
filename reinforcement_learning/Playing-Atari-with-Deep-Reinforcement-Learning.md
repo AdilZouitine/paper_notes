@@ -1,5 +1,7 @@
 # [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 
+Understanding note : **8**
+
 **TLDR** :
 
 - The algorithm will play "like a human" in fact in input these are the raw pixels.

@@ -12,32 +12,8 @@ I will update it over time and through my readings.
 
 # Reinforcement Learning 
 
-## 2019
-
-## 2018
-
-## 2017
-
-## 2016
-
-## 2015
-
-## 2014
-
 ## 2013
+- [Playing Atari with Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Playing-Atari-with-Deep-Reinforcement-Learning.md) (**8**)
 
 # Deep learning
 
-## 2019
-
-## 2018
-
-## 2017
-
-## 2016
-
-## 2015
-
-## 2014
-
-## 2013
