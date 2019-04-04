@@ -9,21 +9,21 @@ Understanding note : **6**
 - This paper proposes an agent that combined some improvement of DQN algorithm
 - Provide state-of-art performance on the Atari 2600 Benchmark
 
-![rainbow](https://www.alexirpan.com/public/rl-hard/rainbow_dqn.png){:height="50%" width="50%"}
+![rainbow](../img/reinforcement_learning/rainbow.png)
 
 ---
 
 **Key points** :
 
 - Rainbow is a combination of **6** independent improvement.
-- Double Q-Learning
-- Prioritized replay
-- Dueling networks
-- Multi-step learning
-- Distributional RL
-- Noisy net
+- Double Q-Learning :
+- Prioritized replay :
+- Dueling networks :
+- Multi-step learning :
+- Distributional RL :
+- Noisy net :
 - Rainbow variants prioritize transitions by the Kullback–Leibler loss
-- Prioritized replay and multi-step learning are the most crucial components of Rainbow
+- **Prioritized replay** and **multi-step** learning are the most crucial components of Rainbow
 - Rainbow improve the learning speed
 
 ---
