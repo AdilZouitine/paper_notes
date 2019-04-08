@@ -1,4 +1,4 @@
-# [Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270.pdf)
+# [Mastering the game of Go without human knowledge](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)
 
 Understanding note : **7**
 
