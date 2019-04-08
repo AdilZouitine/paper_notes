@@ -1,6 +1,6 @@
 # [Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270.pdf)
 
-Understanding note : 7
+Understanding note : **7**
 
 **TLDR** :
 
