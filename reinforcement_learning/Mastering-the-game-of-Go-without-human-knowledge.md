@@ -25,14 +25,14 @@ Understanding note : **7**
 	- First train with supervised learning 
 	- Second train with Policy-gradient
 
-AlphaGo Zero differs from AlphaGo Fan/Lee :
+- AlphaGo Zero differs from AlphaGo Fan/Lee :
 
-- Train by self-play reinforcement learning
-- Only use black and with stone from the board as input features
-- Use single neural network with **2 head** (Policy head and Value Head)
+	- Train by self-play reinforcement learning
+	- Only use black and with stone from the board as input features
+	- Use single neural network with **2 head** (Policy head and Value Head)
 
-- In each state MCTS is **guided** by neural network.
-- AlphaGo Zero outperform AlphaGo Lee after **36h** of training.
+	- In each state MCTS is **guided** by neural network.
+	- AlphaGo Zero outperform AlphaGo Lee after **36h** of training.
 
 - Supervised learning achieved a better initial performance (obvious) and
 self-learned player performed much **better overall**
