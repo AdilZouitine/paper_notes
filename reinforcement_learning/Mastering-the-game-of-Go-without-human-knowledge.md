@@ -28,7 +28,7 @@ Understanding note : **7**
 - AlphaGo Zero differs from AlphaGo Fan/Lee :
 
 	- Train by self-play reinforcement learning
-	- Only use black and with stone from the board as input features
+	- Only use black and whithe stone from the board as input features
 	- Use single neural network with **2 head** (Policy head and Value Head)
 
 	- In each state MCTS is **guided** by neural network.
@@ -37,9 +37,9 @@ Understanding note : **7**
 - Supervised learning achieved a better initial performance (obvious) and
 self-learned player performed much **better overall**
 
-- AlhpaGo Zero may be learning a strategy that is qualitatively **different** to human play
+- AlphaGo Zero may be learning a strategy that is qualitatively **different** to human play
 
-Achitecture : 
+**Achitecture** : 
 
 - 40 residual layer  : 
 	- Conv 256 filters  3x3 kernel 
