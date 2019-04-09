@@ -56,7 +56,7 @@ away from the current policy
 
 - PPO often outperform TRPO
 
-- Final training objective in PPO: 
+- **Final training objective in PPO**: 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=L_{t}^{C&space;L&space;I&space;P&plus;V&space;F&plus;S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C&space;L&space;I&space;P}(\theta)-c_{1}&space;L_{t}^{V&space;F}(\theta)&plus;c_{2}&space;S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L_{t}^{C&space;L&space;I&space;P&plus;V&space;F&plus;S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C&space;L&space;I&space;P}(\theta)-c_{1}&space;L_{t}^{V&space;F}(\theta)&plus;c_{2}&space;S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" title="L_{t}^{C L I P+V F+S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C L I P}(\theta)-c_{1} L_{t}^{V F}(\theta)+c_{2} S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" /></a>
 
