@@ -15,7 +15,7 @@ I will update it over time and through my readings.
 ## 2017
 - [Mastering the game of Go without human knowledge](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Mastering-the-game-of-Go-without-human-knowledge.md) (**6**)
 - [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Rainbow.md) (**6**)
-- [Proximal Policy Optimization Algorithms]()
+- [Proximal Policy Optimization Algorithms](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Proximal-Policy-Optimization-Algorithms.md) (**7**)
 
 ## 2013
 - [Playing Atari with Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Playing-Atari-with-Deep-Reinforcement-Learning.md) (**8**)
