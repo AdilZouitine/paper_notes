@@ -43,6 +43,7 @@ time the Advantage function (estimate of the relative value of selected action i
 
 **Key points** :
 - **Clipped Surrogate Objective**
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=L^{C&space;L&space;I&space;P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min&space;\left(r_{t}(\theta)&space;\hat{A}_{t},&space;\operatorname{clip}\left(r_{t}(\theta),&space;1-\epsilon,&space;1&plus;\epsilon\right)&space;\hat{A}_{t}\right)\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L^{C&space;L&space;I&space;P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min&space;\left(r_{t}(\theta)&space;\hat{A}_{t},&space;\operatorname{clip}\left(r_{t}(\theta),&space;1-\epsilon,&space;1&plus;\epsilon\right)&space;\hat{A}_{t}\right)\right]" title="L^{C L I P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min \left(r_{t}(\theta) \hat{A}_{t}, \operatorname{clip}\left(r_{t}(\theta), 1-\epsilon, 1+\epsilon\right) \hat{A}_{t}\right)\right]" /></a>
 
  	- Optimization of expectation taking the minimum of two parameters
@@ -56,6 +57,7 @@ away from the current policy
 - PPO often outperform TRPO
 
 - Final training objective in PPO: 
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=L_{t}^{C&space;L&space;I&space;P&plus;V&space;F&plus;S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C&space;L&space;I&space;P}(\theta)-c_{1}&space;L_{t}^{V&space;F}(\theta)&plus;c_{2}&space;S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L_{t}^{C&space;L&space;I&space;P&plus;V&space;F&plus;S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C&space;L&space;I&space;P}(\theta)-c_{1}&space;L_{t}^{V&space;F}(\theta)&plus;c_{2}&space;S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" title="L_{t}^{C L I P+V F+S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C L I P}(\theta)-c_{1} L_{t}^{V F}(\theta)+c_{2} S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" /></a>
 
 	- Clip PPO objective
