@@ -17,15 +17,15 @@ Understanding note : **7**
 L^{PG}(\theta) = \hat{\mathbb{E}}_t[log_\pi_\theta(a_t|s_t) \hat{A}_t]
 -->
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=L^{P&space;G}(\theta)=\hat{\mathbb{E}}_{t}\left[\log&space;\pi_{\theta}\left(a_{t}&space;|&space;s_{t}\right)&space;\hat{A}_{t}\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L^{P&space;G}(\theta)=\hat{\mathbb{E}}_{t}\left[\log&space;\pi_{\theta}\left(a_{t}&space;|&space;s_{t}\right)&space;\hat{A}_{t}\right]" title="L^{P G}(\theta)=\hat{\mathbb{E}}_{t}\left[\log \pi_{\theta}\left(a_{t} | s_{t}\right) \hat{A}_{t}\right]" /></a>
+- <a href="https://www.codecogs.com/eqnedit.php?latex=L^{P&space;G}(\theta)=\hat{\mathbb{E}}_{t}\left[\log&space;\pi_{\theta}\left(a_{t}&space;|&space;s_{t}\right)&space;\hat{A}_{t}\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L^{P&space;G}(\theta)=\hat{\mathbb{E}}_{t}\left[\log&space;\pi_{\theta}\left(a_{t}&space;|&space;s_{t}\right)&space;\hat{A}_{t}\right]" title="L^{P G}(\theta)=\hat{\mathbb{E}}_{t}\left[\log \pi_{\theta}\left(a_{t} | s_{t}\right) \hat{A}_{t}\right]" /></a>
 
-- log(probabilities) from the output of the policy network
-time the Advantage function (estimate of the relative value of selected action in the current state )
+	- log(probabilities) from the output of the policy network
+	time the Advantage function (estimate of the relative value of selected action in the current state )
 
 
--  The idea between Advantage function "What is the action that our agent took was it better than expected or was it worse"
+	-  The idea between Advantage function "What is the action that our agent took was it better than expected or was it worse"
 
-- Policy gradient loss : Multipling the log of probability and this avantage function
+	- Policy gradient loss : Multipling the log of probability and this avantage function
 
 - **This objective function doing is** : 
 
@@ -42,11 +42,12 @@ time the Advantage function (estimate of the relative value of selected action i
 ---
 
 **Key points** :
+
 - **Clipped Surrogate Objective**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=L^{C&space;L&space;I&space;P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min&space;\left(r_{t}(\theta)&space;\hat{A}_{t},&space;\operatorname{clip}\left(r_{t}(\theta),&space;1-\epsilon,&space;1&plus;\epsilon\right)&space;\hat{A}_{t}\right)\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L^{C&space;L&space;I&space;P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min&space;\left(r_{t}(\theta)&space;\hat{A}_{t},&space;\operatorname{clip}\left(r_{t}(\theta),&space;1-\epsilon,&space;1&plus;\epsilon\right)&space;\hat{A}_{t}\right)\right]" title="L^{C L I P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min \left(r_{t}(\theta) \hat{A}_{t}, \operatorname{clip}\left(r_{t}(\theta), 1-\epsilon, 1+\epsilon\right) \hat{A}_{t}\right)\right]" /></a>
+- <a href="https://www.codecogs.com/eqnedit.php?latex=L^{C&space;L&space;I&space;P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min&space;\left(r_{t}(\theta)&space;\hat{A}_{t},&space;\operatorname{clip}\left(r_{t}(\theta),&space;1-\epsilon,&space;1&plus;\epsilon\right)&space;\hat{A}_{t}\right)\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L^{C&space;L&space;I&space;P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min&space;\left(r_{t}(\theta)&space;\hat{A}_{t},&space;\operatorname{clip}\left(r_{t}(\theta),&space;1-\epsilon,&space;1&plus;\epsilon\right)&space;\hat{A}_{t}\right)\right]" title="L^{C L I P}(\theta)=\hat{\mathbb{E}}_{t}\left[\min \left(r_{t}(\theta) \hat{A}_{t}, \operatorname{clip}\left(r_{t}(\theta), 1-\epsilon, 1+\epsilon\right) \hat{A}_{t}\right)\right]" /></a>
 
- 	- Optimization of expectation taking the minimum of two parameters
+	- Optimization of expectation taking the minimum of two parameters
 	- The first term is the normal objective of a policy gradient
 	- The second term is clipped version of normal policy gratients objective
 	- The clip is here for limit the effect of the gradient update
@@ -58,7 +59,7 @@ away from the current policy
 
 - **Final training objective in PPO**: 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=L_{t}^{C&space;L&space;I&space;P&plus;V&space;F&plus;S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C&space;L&space;I&space;P}(\theta)-c_{1}&space;L_{t}^{V&space;F}(\theta)&plus;c_{2}&space;S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L_{t}^{C&space;L&space;I&space;P&plus;V&space;F&plus;S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C&space;L&space;I&space;P}(\theta)-c_{1}&space;L_{t}^{V&space;F}(\theta)&plus;c_{2}&space;S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" title="L_{t}^{C L I P+V F+S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C L I P}(\theta)-c_{1} L_{t}^{V F}(\theta)+c_{2} S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" /></a>
+- <a href="https://www.codecogs.com/eqnedit.php?latex=L_{t}^{C&space;L&space;I&space;P&plus;V&space;F&plus;S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C&space;L&space;I&space;P}(\theta)-c_{1}&space;L_{t}^{V&space;F}(\theta)&plus;c_{2}&space;S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?L_{t}^{C&space;L&space;I&space;P&plus;V&space;F&plus;S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C&space;L&space;I&space;P}(\theta)-c_{1}&space;L_{t}^{V&space;F}(\theta)&plus;c_{2}&space;S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" title="L_{t}^{C L I P+V F+S}(\theta)=\hat{\mathbb{E}}_{t}\left[L_{t}^{C L I P}(\theta)-c_{1} L_{t}^{V F}(\theta)+c_{2} S\left[\pi_{\theta}\right]\left(s_{t}\right)\right]" /></a>
 
 	- Clip PPO objective
 	- Second term updating the baseline network (Value Head)
