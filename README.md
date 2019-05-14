@@ -26,4 +26,4 @@ I will update it over time and through my readings.
 # Deep learning
 
 ## 2015 
-- [Learning to Compare Image Patches via Convolutional Neural Networks](https://github.com/AdilZouitine/paper_notes/blob/master/deep_learning/Learning-to-Compare-Image-Patches-via-Convolutional-Neural-Networks.md)
+- [Learning to Compare Image Patches via Convolutional Neural Networks](https://github.com/AdilZouitine/paper_notes/blob/master/deep_learning/Learning-to-Compare-Image-Patches-via-Convolutional-Neural-Networks.md) (**5**)
