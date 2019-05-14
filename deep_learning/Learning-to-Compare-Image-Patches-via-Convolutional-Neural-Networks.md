@@ -6,7 +6,8 @@ Understanding note : **6**
 
 **TLDR** :
 - Learn directly from image data a general similarity function
-- They found an apporach can significantly outperform state of the art on several dataset
+- They found an apporach can significantly outperform state of the art on several dataset.
+- ![](https://ibb.co/GsTrcQD)
 
 ---
 
