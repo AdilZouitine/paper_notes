@@ -19,6 +19,16 @@ Understanding note : **6**
 
 ![](https://i.ibb.co/THX9z0S/lamb2.png)
 
-    - 2 channels : 
+- 2 channels : 
+    
+    - Concatenate the two patches and put them at the input of the CNN.
+
+- Siamese :
+    - The two images are entered into both networks with the same structure for feature extraction.
+    - If both branches are set to the same parameters then the network is Siamese otherwise it is pseudo-siamese.
+
+- Central surround :
+    
+
 ---
 **My impression** :
