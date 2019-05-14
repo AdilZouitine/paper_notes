@@ -5,14 +5,20 @@
 Understanding note : **6**
 
 **TLDR** :
+
+![](https://i.ibb.co/LQ5sndy/lam.png)
 - Learn directly from image data a general similarity function
 - They found an apporach can significantly outperform state of the art on several dataset.
-- ![](https://ibb.co/GsTrcQD)
 
 ---
 
 **Key points** :
+- They only use grey scale during training
 
+- This paper mainly designs three types of network models and their variants
 
+![](https://i.ibb.co/THX9z0S/lamb2.png)
+
+    - 2 channels : 
 ---
 **My impression** :
