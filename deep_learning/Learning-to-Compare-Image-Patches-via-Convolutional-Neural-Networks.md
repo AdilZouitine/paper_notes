@@ -2,7 +2,7 @@
 
 [Source](http://imagine.enpc.fr/~zagoruys/publication/deepcompare/)
 
-Understanding note : **6**
+Understanding note : **5**
 
 **TLDR** :
 
@@ -27,8 +27,16 @@ Understanding note : **6**
     - The two images are entered into both networks with the same structure for feature extraction.
     - If both branches are set to the same parameters then the network is Siamese otherwise it is pseudo-siamese.
 
-- Central surround :
-    
+**This is the part I least understood of the paper.**
+- Central surround : 
+    - Perform two operations on a 64 x 64 image. One is to capture the central 32x32 patch to form a central patch, and once, the original image is down-sampled at half to obtain a surround patch. In this way, the information in the middle of the image is used twice, so that the information in the intermediate image has a greater impact on the final result.
+
+- Spatial pyramid pooling at the end of feature extraction block. (Handle multi resolution).
+
+- Optimisation :
+
+    - Objective function : <a href="https://www.codecogs.com/eqnedit.php?latex=\min&space;_{w}&space;\frac{\lambda}{2}\|w\|_{2}&plus;\sum_{i=1}^{N}&space;\max&space;\left(0,1-y_{i}&space;o_{i}^{n&space;e&space;t}\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\min&space;_{w}&space;\frac{\lambda}{2}\|w\|_{2}&plus;\sum_{i=1}^{N}&space;\max&space;\left(0,1-y_{i}&space;o_{i}^{n&space;e&space;t}\right)" title="\min _{w} \frac{\lambda}{2}\|w\|_{2}+\sum_{i=1}^{N} \max \left(0,1-y_{i} o_{i}^{n e t}\right)" /></a>
+
 
 ---
 **My impression** :
