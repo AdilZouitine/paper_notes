@@ -1,5 +1,7 @@
 # [Deep Reinforcement Learning for Active Breast Lesion Detection from DCE-MRI](https://cs.adelaide.edu.au/~gabriel/DRL_maicasEtAl.pdf)
 
+[Youtube video](https://www.youtube.com/watch?v=Gbnke3pcDNE)
+
 Understanding note : **8**
 
  
