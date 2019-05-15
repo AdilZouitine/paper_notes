@@ -17,6 +17,8 @@ I will update it over time and through my readings.
 - [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Rainbow.md) (**6**)
 - [Proximal Policy Optimization Algorithms](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Proximal-Policy-Optimization-Algorithms.md) (**7**)
 
+- [Deep Reinforcement Learning for Active Breast Lesion Detection from DCE-MRI](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Deep-Reinforcement-Learning-for-Active-Breast-Lesion-Detection-from-DCE-MRI.md) (**8**)
+
 ## 2015
 - [Active Object Localization with Deep Reinforcement Learning](https://github.com/AdilZouitine/paper_notes/blob/master/reinforcement_learning/Active-Object-Localization-with-Deep-Reinforcement-Learning.md) (**7**)
 
